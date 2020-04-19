@@ -1,3 +1,5 @@
+import '../css/slider.css';
+
 export default class Slider {
 
   constructor() {

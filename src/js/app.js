@@ -11,6 +11,10 @@ const slider = new Slider();
 
 myImage.src = Image;
 
+if (process.env.NODE_ENV !== 'production') {
+  console.log('looks like you are in development mode');
+}
+
 el.innerHTML = [
   '5 cubed is equal to ' + cube(5)
 ].join('\n\n');
