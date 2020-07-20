@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Cmac2712/vue-chat-app#readme",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
